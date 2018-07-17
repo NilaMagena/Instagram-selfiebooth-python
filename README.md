@@ -1,1 +1,1 @@
-# magena
+# Instagram-selfiebooth-python
