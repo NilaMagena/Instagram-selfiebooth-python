@@ -46,4 +46,4 @@ After that, you’ll need to run the
 ```
 capture.py
 ```
-using the command prompt. It should take pictures when the button closes the circuit. 
+code using the command prompt. It should take pictures when the button closes the circuit. 
