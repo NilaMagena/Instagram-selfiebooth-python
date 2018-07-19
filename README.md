@@ -47,3 +47,10 @@ After that, you’ll need to run the
 capture.py
 ```
 code using the command prompt. It should take pictures when the button closes the circuit. 
+
+## Part 2: Uploading the image
+Things you will need: 
+1.	Raspberry Pi
+2.	WiFi dongle
+3.	*[Instagram-API-python](https://github.com/LevPasha/Instagram-API-python) code
+
