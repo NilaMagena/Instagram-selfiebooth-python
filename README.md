@@ -40,3 +40,10 @@ and make sure that the PiCamera is supported and detected.
 
 The fairy lights are only turned on when a picture is being taken so you will need a relay to turn the fairy lights on and off on command. You will need to connect the button such that the battery pack is connected between the Raspberry Pi and button.
 
+![raspi button](https://user-images.githubusercontent.com/41287923/42916142-52044c52-8b36-11e8-9c5e-60128e6e74ce.png)
+
+After that, you’ll need to run the 
+```
+capture.py
+```
+using the command prompt. It should take pictures when the button closes the circuit. 
