@@ -4,16 +4,6 @@ This is a Selfie Booth that uses a Raspberry Pi to take pictures and sends them 
 I have split this up into 2 parts – the capturing of image and uploading the image to Instagram. 
 
 ## Part 1: Capturing the image
-Things you will need: 
-1.	Raspberry Pi (I’m using Raspberry Pi 2)
-2.	Raspberry Pi Camera (you can also use a [USB camera](https://www.raspberrypi.org/documentation/usage/webcams/) but you’ll have to modify the code)
-3.	Light source (I used Christmas/fairy lights)
-4.	Relay
-5.	Battery pack that can hold 4 AA batteries
-6.	Wires
-7.	LED lights 
-8.	Wires (female & male pin connectors)
-9.	Duct/electrical tape
 
 ### Install and use the PiCamera
 Install the Raspberry Pi Camera module by inserting the cable into the Raspberry Pi. The cable slots into the connector situated between the Ethernet and HDMI ports, with the silver connectors facing the HDMI port.
@@ -49,10 +39,8 @@ capture.py
 code using the command prompt. It should take pictures when the button closes the circuit. 
 
 ## Part 2: Uploading the image
-Things you will need: 
-1.	Raspberry Pi
-2.	WiFi dongle
-3.	[Instagram-API-python](https://github.com/LevPasha/Instagram-API-python) code
+You'll need this code installed to run the upload.py code
+[Instagram-API-python](https://github.com/LevPasha/Instagram-API-python) code
 
 You’ll need to connect the Raspberry Pi to a reliable and stable WiFi so that this code will run smoothly. After connecting it to the WiFi, run the 
 ```
