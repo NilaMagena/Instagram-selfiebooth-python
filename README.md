@@ -6,7 +6,7 @@ I have split this up into 2 parts – the capturing of image and uploading the i
 ## Part 1: Capturing the image
 Things you will need: 
 1.	Raspberry Pi (I’m using Raspberry Pi 2)
-2.	Raspberry Pi Camera (you can also use a USB camera but you’ll have to modify the code)
+2.	Raspberry Pi Camera (you can also use a [USB](https://www.raspberrypi.org/documentation/usage/webcams/) camera but you’ll have to modify the code)
 3.	Light source (I used Christmas/fairy lights)
 4.	Relay
 5.	Battery pack that can hold 4 AA batteries
@@ -52,5 +52,11 @@ code using the command prompt. It should take pictures when the button closes th
 Things you will need: 
 1.	Raspberry Pi
 2.	WiFi dongle
-3.	*[Instagram-API-python](https://github.com/LevPasha/Instagram-API-python) code
+3.	[Instagram-API-python](https://github.com/LevPasha/Instagram-API-python) code
+
+You’ll need to connect the Raspberry Pi to a reliable and stable WiFi so that this code will run smoothly. After connecting it to the WiFi, run the 
+```
+upload.py
+```
+code on another command prompt. 
 
