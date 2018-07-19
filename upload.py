@@ -18,8 +18,8 @@ while True:
      for file in filelist:
          imagename = sourcepath + "/" + file
          imagename2 = destpath + "/" + file
-         caption = "Ridiculously Simple to Hack #makered #sciencecentresg #caltexfys18"
-         caption = "Ridiculously Simple to Hack #makered #sciencecentresg #caltexfys18"
+         caption = " "
+         caption = " "
 
          InstagramAPI.uploadPhoto(imagename, caption)
          os.rename(imagename, imagename2)
