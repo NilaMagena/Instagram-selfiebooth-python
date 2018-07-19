@@ -36,3 +36,7 @@ vcgencmd get_camera
 and make sure that the PiCamera is supported and detected. 
 
 ### Connecting the hardware to Raspberry Pi
+![raspi hardware](https://user-images.githubusercontent.com/41287923/42916041-c49b0f18-8b35-11e8-97d7-b5f7e46cdf67.png)
+
+The fairy lights are only turned on when a picture is being taken so you will need a relay to turn the fairy lights on and off on command. You will need to connect the button such that the battery pack is connected between the Raspberry Pi and button.
+
